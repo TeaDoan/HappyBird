@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B00D521B20FE6056006A0DF8 /* HomeCategoryListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D521A20FE6056006A0DF8 /* HomeCategoryListTableViewController.swift */; };
+		B00D521F20FFBA1F006A0DF8 /* CachePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D521E20FFBA1F006A0DF8 /* CachePhotos.swift */; };
+		B00D522121004096006A0DF8 /* SearchJokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D522021004096006A0DF8 /* SearchJokes.swift */; };
+		B01EAEE520F7137F007B2EA1 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01EAEE420F7137F007B2EA1 /* CoreDataStack.swift */; };
+		B01EAEE720F817F7007B2EA1 /* OneQuoteADay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01EAEE620F817F7007B2EA1 /* OneQuoteADay.swift */; };
+		B01EAEE920F8336A007B2EA1 /* RandomFunQuoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01EAEE820F8336A007B2EA1 /* RandomFunQuoteTableViewController.swift */; };
+		B01EAEEB20F83600007B2EA1 /* RandomQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01EAEEA20F83600007B2EA1 /* RandomQuotes.swift */; };
 		B034755C20F540BA00D6B131 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B034755B20F540BA00D6B131 /* AppDelegate.swift */; };
-		B034755E20F540BA00D6B131 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B034755D20F540BA00D6B131 /* ViewController.swift */; };
 		B034756120F540BA00D6B131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B034755F20F540BA00D6B131 /* Main.storyboard */; };
 		B034756420F540BA00D6B131 /* HappyBird.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B034756220F540BA00D6B131 /* HappyBird.xcdatamodeld */; };
 		B034756620F540BC00D6B131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B034756520F540BC00D6B131 /* Assets.xcassets */; };
 		B034756920F540BC00D6B131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B034756720F540BC00D6B131 /* LaunchScreen.storyboard */; };
+		B034757120F541A700D6B131 /* QuoteOfTheDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B034757020F541A700D6B131 /* QuoteOfTheDayViewController.swift */; };
+		B034757320F5424000D6B131 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B034757220F5424000D6B131 /* UIView+Extension.swift */; };
+		B034757520F5427F00D6B131 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B034757420F5427F00D6B131 /* UIColor+Extension.swift */; };
+		B034758120F6AB9F00D6B131 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B034758020F6AB9F00D6B131 /* APIService.swift */; };
+		B07E3DA42102626F006957B8 /* RandomQuoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07E3DA32102626F006957B8 /* RandomQuoteController.swift */; };
+		B09FAFA420FA921D0021CF81 /* Jokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09FAFA320FA921D0021CF81 /* Jokes.swift */; };
+		B09FAFA620FA97EF0021CF81 /* JokesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09FAFA520FA97EF0021CF81 /* JokesListViewController.swift */; };
+		B09FAFA820FA98330021CF81 /* JokesListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09FAFA720FA98330021CF81 /* JokesListTableViewCell.swift */; };
+		B09FAFAA20FBF34B0021CF81 /* QuoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09FAFA920FBF34B0021CF81 /* QuoteTableViewCell.swift */; };
+		B0D3FAC520FD198C00A17FD5 /* OneJokeADay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D3FAC420FD198C00A17FD5 /* OneJokeADay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B00D521A20FE6056006A0DF8 /* HomeCategoryListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCategoryListTableViewController.swift; sourceTree = "<group>"; };
+		B00D521E20FFBA1F006A0DF8 /* CachePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachePhotos.swift; sourceTree = "<group>"; };
+		B00D522021004096006A0DF8 /* SearchJokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchJokes.swift; sourceTree = "<group>"; };
+		B01EAEE420F7137F007B2EA1 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		B01EAEE620F817F7007B2EA1 /* OneQuoteADay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneQuoteADay.swift; sourceTree = "<group>"; };
+		B01EAEE820F8336A007B2EA1 /* RandomFunQuoteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RandomFunQuoteTableViewController.swift; path = "HappyBird/View controllers/RandomFunQuoteTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		B01EAEEA20F83600007B2EA1 /* RandomQuotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuotes.swift; sourceTree = "<group>"; };
 		B034755820F540BA00D6B131 /* HappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B034755B20F540BA00D6B131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B034755D20F540BA00D6B131 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B034756020F540BA00D6B131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B034756320F540BA00D6B131 /* HappyBird.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HappyBird.xcdatamodel; sourceTree = "<group>"; };
 		B034756520F540BC00D6B131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B034756820F540BC00D6B131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B034756A20F540BC00D6B131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B034757020F541A700D6B131 /* QuoteOfTheDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteOfTheDayViewController.swift; sourceTree = "<group>"; };
+		B034757220F5424000D6B131 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B034757420F5427F00D6B131 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		B034758020F6AB9F00D6B131 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		B07E3DA32102626F006957B8 /* RandomQuoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteController.swift; sourceTree = "<group>"; };
+		B09FAFA320FA921D0021CF81 /* Jokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jokes.swift; sourceTree = "<group>"; };
+		B09FAFA520FA97EF0021CF81 /* JokesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JokesListViewController.swift; path = "HappyBird/View controllers/JokesListViewController.swift"; sourceTree = SOURCE_ROOT; };
+		B09FAFA720FA98330021CF81 /* JokesListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesListTableViewCell.swift; sourceTree = "<group>"; };
+		B09FAFA920FBF34B0021CF81 /* QuoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteTableViewCell.swift; sourceTree = "<group>"; };
+		B0D3FAC420FD198C00A17FD5 /* OneJokeADay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneJokeADay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +89,78 @@
 			isa = PBXGroup;
 			children = (
 				B034755B20F540BA00D6B131 /* AppDelegate.swift */,
-				B034755D20F540BA00D6B131 /* ViewController.swift */,
-				B034755F20F540BA00D6B131 /* Main.storyboard */,
-				B034756520F540BC00D6B131 /* Assets.xcassets */,
-				B034756720F540BC00D6B131 /* LaunchScreen.storyboard */,
-				B034756A20F540BC00D6B131 /* Info.plist */,
-				B034756220F540BA00D6B131 /* HappyBird.xcdatamodeld */,
+				B01EAEE420F7137F007B2EA1 /* CoreDataStack.swift */,
+				B034757B20F5439500D6B131 /* Models */,
+				B034757A20F5433500D6B131 /* Model Controllers */,
+				B034757820F5430500D6B131 /* UI */,
+				B034757920F5431F00D6B131 /* View controllers */,
+				B034757720F542CB00D6B131 /* Resourses */,
 			);
 			path = HappyBird;
+			sourceTree = "<group>";
+		};
+		B034757620F542B100D6B131 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B034756A20F540BC00D6B131 /* Info.plist */,
+				B034756520F540BC00D6B131 /* Assets.xcassets */,
+				B034757220F5424000D6B131 /* UIView+Extension.swift */,
+				B034757420F5427F00D6B131 /* UIColor+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B034757720F542CB00D6B131 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				B034757620F542B100D6B131 /* Extension */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		B034757820F5430500D6B131 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B09FAFA920FBF34B0021CF81 /* QuoteTableViewCell.swift */,
+				B09FAFA720FA98330021CF81 /* JokesListTableViewCell.swift */,
+				B034755F20F540BA00D6B131 /* Main.storyboard */,
+				B034756720F540BC00D6B131 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B034757920F5431F00D6B131 /* View controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B09FAFA520FA97EF0021CF81 /* JokesListViewController.swift */,
+				B01EAEE820F8336A007B2EA1 /* RandomFunQuoteTableViewController.swift */,
+				B00D521E20FFBA1F006A0DF8 /* CachePhotos.swift */,
+				B034757020F541A700D6B131 /* QuoteOfTheDayViewController.swift */,
+				B00D521A20FE6056006A0DF8 /* HomeCategoryListTableViewController.swift */,
+			);
+			path = "View controllers";
+			sourceTree = "<group>";
+		};
+		B034757A20F5433500D6B131 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B034758020F6AB9F00D6B131 /* APIService.swift */,
+				B07E3DA32102626F006957B8 /* RandomQuoteController.swift */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		B034757B20F5439500D6B131 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B034756220F540BA00D6B131 /* HappyBird.xcdatamodeld */,
+				B01EAEEA20F83600007B2EA1 /* RandomQuotes.swift */,
+				B01EAEE620F817F7007B2EA1 /* OneQuoteADay.swift */,
+				B09FAFA320FA921D0021CF81 /* Jokes.swift */,
+				B0D3FAC420FD198C00A17FD5 /* OneJokeADay.swift */,
+				B00D522021004096006A0DF8 /* SearchJokes.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +234,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01EAEE520F7137F007B2EA1 /* CoreDataStack.swift in Sources */,
 				B034756420F540BA00D6B131 /* HappyBird.xcdatamodeld in Sources */,
-				B034755E20F540BA00D6B131 /* ViewController.swift in Sources */,
+				B00D522121004096006A0DF8 /* SearchJokes.swift in Sources */,
 				B034755C20F540BA00D6B131 /* AppDelegate.swift in Sources */,
+				B09FAFA620FA97EF0021CF81 /* JokesListViewController.swift in Sources */,
+				B09FAFAA20FBF34B0021CF81 /* QuoteTableViewCell.swift in Sources */,
+				B034757520F5427F00D6B131 /* UIColor+Extension.swift in Sources */,
+				B00D521F20FFBA1F006A0DF8 /* CachePhotos.swift in Sources */,
+				B01EAEE920F8336A007B2EA1 /* RandomFunQuoteTableViewController.swift in Sources */,
+				B07E3DA42102626F006957B8 /* RandomQuoteController.swift in Sources */,
+				B01EAEE720F817F7007B2EA1 /* OneQuoteADay.swift in Sources */,
+				B01EAEEB20F83600007B2EA1 /* RandomQuotes.swift in Sources */,
+				B09FAFA420FA921D0021CF81 /* Jokes.swift in Sources */,
+				B09FAFA820FA98330021CF81 /* JokesListTableViewCell.swift in Sources */,
+				B034757320F5424000D6B131 /* UIView+Extension.swift in Sources */,
+				B034758120F6AB9F00D6B131 /* APIService.swift in Sources */,
+				B034757120F541A700D6B131 /* QuoteOfTheDayViewController.swift in Sources */,
+				B00D521B20FE6056006A0DF8 /* HomeCategoryListTableViewController.swift in Sources */,
+				B0D3FAC520FD198C00A17FD5 /* OneJokeADay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +398,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S7CCUH8W47;
-				INFOPLIST_FILE = HappyBird/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HappyBird/Resourses/Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +416,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S7CCUH8W47;
-				INFOPLIST_FILE = HappyBird/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HappyBird/Resourses/Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
